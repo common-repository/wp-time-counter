@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+* {
+  margin: 0;
+  font-family: Open Sans, Arial;
+}
+
+section {
+  background-color: #333333;
+  height: 100%;
+  color: #fff;
+}
+
+section .timer {
+  margin: 0;
+  text-align: center;
+  width: 560px;
+  height: 560px;
+  font-size: 4em;
+  border: 2px solid #99CC00;
+  border-radius: 50%;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+  margin-left : 10px;
+}
+
+section .timer .title {
+  text-align: center;
+  line-height: 100px;
+  font-size: .6em;
+  margin-top:75px;
+}
+
+.countdown-timer .upperHalfBack img{
+	vertical-align: top;
+}
+.countdown-timer{
+	margin-left: -30px;
+}
+.countdown-timer .front .upperHalf img{
+	vertical-align: 50%;
+}

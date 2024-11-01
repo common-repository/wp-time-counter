@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+.dialogClass {
+	z-index: 1111;
+} 
+#dialog {
+	
+	width: 800px;
+}
+#dialog #left {
+	
+	float:left;
+	width:400px;
+	
+}
+
+#dialog #right {
+	
+	float:left;
+	width:371px;
+}
+
+i.tc_icon {
+	background-image: url('../../images/icon.png');
+}
+.wp-media-buttons .tc_icon span.wp-media-buttons-icon {
+	background: url('../../images/icon.png') no-repeat;
+	height: 20px;
+}
+.dialogClass #dialog {
+	
+	display:block !important;
+}
+#dialog {
+	
+	display:block !important;
+}
+.xdsoft_datetimepicker {
+	z-index:9999999 !important;
+}
